@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "diode",
+  "version": "1.0.0",
+  "name": "Diode",
+  "description": "",
+  "authors": [ "maximumpower55" ],
+  "contact": {
+    "sources": "https://github.com/maximmods/Diode",
+    "issues": "https://github.com/maximmods/Diode/issues",
+    "discord": "https://discord.gg/TchSsQTwct"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [ "diode.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.19.3",
+    "fabric-transfer-api-v1": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/TchSsQTwct"
+      },
+      "badges": [ "library" ]
+    }
+  }
+}
